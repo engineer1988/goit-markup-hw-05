@@ -491,3 +491,55 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
 }
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 264px;
+}
+.footer-form {
+  display: flex;
+  gap: 24px;
+  margin-left: 80px;
+}
+.subscribe-text {
+  color: #fff;
+
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer-input {
+  padding: 8px 212px 8px 16px;
+  background-color: inherit;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  flex-shrink: 0;
+  width: 264px;
+  height: 40px;
+}
+.footer-input::placeholder {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04px;
+}
+.footer-button {
+  padding: 8px 24px;
+  display: flex;
+  width: 165px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background: #4d5ae5;
+  align-self: flex-end;
+  margin-bottom: 0;
+  border: 0;
+}
+.footer-input-svg {
+  fill: #ffffff;
+}

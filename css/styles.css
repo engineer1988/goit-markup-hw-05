@@ -492,58 +492,48 @@ img {
   transition-delay: 0;
 }
 .subscribe {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  width: 264px;
+margin-bottom: 16px;
 }
 .footer-form {
   display: flex;
   gap: 24px;
-  margin-left: 80px;
 }
 .subscribe-text {
   color: #fff;
-
+  font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+  line-height: 1.5;letter-spacing: 0.04em;
+/}
 .footer-input {
-  padding: 8px 212px 8px 16px;
-  background-color: inherit;
-  border-radius: 4px;
+  background-color: transparent;
   border: 1px solid #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  flex-shrink: 0;
   width: 264px;
-  height: 40px;
-}
-.footer-input::placeholder {
+  height: 40px;  font-size: 12px;  line-height: 1.5;
+  letter-spacing: 0.04px;padding-left: 16px;border-radius: 4px; 
   color: #fff;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 2;
-  letter-spacing: 0.04px;
-}
+  
+  }
+  ::placeholder {
+    color: #ffffff;
+  }
 .footer-button {
-  padding: 8px 24px;
   display: flex;
   width: 165px;
   height: 40px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   border-radius: 4px;
   background: #4d5ae5;
-  align-self: flex-end;
-  margin-bottom: 0;
-  border: 0;
+  border: none;
+  cursor: pointer;
 }
 .footer-input-svg {
-  fill: #ffffff;
+  fill: #ffffff;margin-left: 16px;
 }
-
+.footer-social-media {
+  margin-right: 80px;
+}
 /* =================================== modal window ==================================== */
 .backdrop {
   position: fixed;

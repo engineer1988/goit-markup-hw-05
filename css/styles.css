@@ -502,15 +502,15 @@ margin-bottom: 16px;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;letter-spacing: 0.04em;
+  line-height: 1.5;letter-spacing: 0.02em;
 /}
 .footer-input {
   background-color: transparent;
   border: 1px solid #fff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); 
   width: 264px;
   height: 40px;  font-size: 12px;  line-height: 1.5;
-  letter-spacing: 0.04px;padding-left: 16px;border-radius: 4px; 
+  letter-spacing: 0.04em;padding-left: 16px;border-radius: 4px; 
   color: #fff;
   
   }
@@ -519,7 +519,7 @@ margin-bottom: 16px;
   }
 .footer-button {
   display: flex;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   justify-content: center;
   align-items: center;

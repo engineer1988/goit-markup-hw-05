@@ -530,6 +530,12 @@ img {
   border: none;
   cursor: pointer;
 }
+.subscribe-text {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
 .footer-input-svg {
   fill: #ffffff;
   margin-left: 16px;

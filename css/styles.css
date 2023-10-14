@@ -493,17 +493,15 @@ img {
 }
 .subscribe {
   margin-bottom: 16px;
-}
-.footer-form {
-  display: flex;
-  gap: 24px;
-}
-.subscribe-text {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
+}
+.footer-form {
+  display: flex;
+  gap: 24px;
 }
 .footer-input {
   background-color: transparent;

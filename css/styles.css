@@ -712,14 +712,14 @@ img {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-checkbox:checked + .modal-label-checkbox .modal-icon-property {
-  /* display: none; */
-  /* background-color: #404bbf; */
+/* .modal-checkbox:checked + .modal-label-checkbox .modal-icon-property {
+  display: none;
+  background-color: #404bbf;
 }
 .modal-icon-property {
-  /* fill: rgba(46, 47, 66, 0.4); */
-  /* transition: display 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-}
+  fill: rgba(46, 47, 66, 0.4);
+  transition: display 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
 .modal-checkbox-wrap {
   display: flex;
   align-items: center;
